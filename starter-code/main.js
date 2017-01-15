@@ -49,3 +49,15 @@ if (cardOne === cardTwo) {
 else {
 	window.alert("Sorry, try again.");
 }
+
+var createCards = function(){
+	var board = document.getElementById('game-board');
+		for (i = 0; i < 4; i++) {
+			var newCard = document.createElement('div');
+			board.appendChild(newCard);
+			newCard.setAttribute('class', 'card');
+		}
+	}
+
+
+createCards();
