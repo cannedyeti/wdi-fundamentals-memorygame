@@ -1,5 +1,6 @@
 body {
 	margin: 0 auto;
+
 }
 
 h1 {
@@ -31,7 +32,7 @@ h2 {
 
 .board {
 	height: 50%;
-	width: 50%;
+	width: 80%;
 	display: inline-block;
 }
 
@@ -45,10 +46,15 @@ h2 {
 	margin: 8%;
 }
 
+.card img {
+	height: 200px;
+}
+
 footer {
 	text-align: center;
 	background-color: #808080;
 	height: 50px;
+	margin:0 auto;
 }
 
 footer p {
